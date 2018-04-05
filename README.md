@@ -20,12 +20,6 @@ Submissions are evaluated using multi-class logarithmic loss.
 
 Each id has one true class. For each id, need to submit a predicted probability for each author. 
 
-The formula is then:
-
-$$
-log loss = -\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}\log(p_{ij})
-$$
-
 ### Data fields
 id - a unique identifier for each sentence
 
