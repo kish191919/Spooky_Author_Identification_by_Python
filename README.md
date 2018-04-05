@@ -98,8 +98,11 @@ Confusion Matrix:
 avg / total       0.90      0.90      0.90     19579
 ```
 ### Prediction
+
 Model : Naive Bayes classification
+
 Kaggle Score : 0.48767
+
 Kaggle rank : 793 / 1244 (63.7%) [2018.4.5] 
 
 
