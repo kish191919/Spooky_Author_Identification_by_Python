@@ -1,5 +1,6 @@
 # Spooky_Author_Identification
 This is a competition to identify an auther from sentences which they wrote.
+
 This project follows the instructions of a Kaggle competition during the Halloween of 2017.
 
 The link of the competition is https://www.kaggle.com/c/spooky-author-identification
@@ -9,20 +10,25 @@ The competition dataset contains text from works of fiction written by spooky au
 
 ### Files
 train.csv - the training set
+
 test.csv - the test set
+
 sample_submission.csv - a sample submission file in the correct format
 
 ### Evaluation
 Submissions are evaluated using multi-class logarithmic loss. 
-Each id has one true class. For each id, need to submit a predicted probability for each author. 
-The formula is then:
 
+Each id has one true class. For each id, need to submit a predicted probability for each author. 
+
+The formula is then:
 
 $log loss = -\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}\log(p_{ij})$
 
 ### Data fields
 id - a unique identifier for each sentence
+
 text - some text written by one of the authors
+
 author - the author of the sentence (EAP: Edgar Allan Poe, HPL: HP Lovecraft; MWS: Mary Wollstonecraft Shelley)
 
 A reminder about playground competitions: On Kaggle, the spirit of playground competitions is to have fun and learn together. Your score on the leaderboard doesn't earn you points, but you can still make it a rewarding competition for everyone by sharing your code in Kernels and contributing to Discussions (there are prizes for both!). In short, please don't look up the answers.
