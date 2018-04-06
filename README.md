@@ -18,6 +18,8 @@ sample_submission.csv - a sample submission file in the correct format
 ### Evaluation
 Submissions are evaluated using multi-class logarithmic loss. 
 
+<img src="https://latex.codecogs.com/gif.latex?log%20loss%20%3D%20-%5Cfrac%7B1%7D%7BN%7D%5Csum_%7Bi%3D1%7D%5EN%5Csum_%7Bj%3D1%7D%5EMy_%7Bij%7D%5Clog%28p_%7Bij%7D%29">
+
 Each id has one true class. For each id, need to submit a predicted probability for each author. 
 
 ### Data fields
